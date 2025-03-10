@@ -1,10 +1,14 @@
-# Faculdade Estacio
+# ESTACIO - BRASILÍA - DF
 
-## Análise e Desenvolvimento de Sistemas - Online
+## Graduação Tecnológica Análise e Desenvolvimento de Sistemas - Online
 
 <p>
-    Pdfs das materias estudadas durante o curso!
+    PDFs das materias estudadas durante o curso!
 </p>
+
+<hr>
+
+# TECNOLOGIAS
 
  <div style="display: inline_block; grid:col 4">    
         <img width="50px" style="padding: 10px;" alt="Php" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
@@ -22,3 +26,6 @@
             <img width="50px" style="padding: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
           <img width="50px" style="padding: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" />   
 </div>
+<p>
+    Início Julho de 2024 até dezembro de 2026.
+</p>
