@@ -3,7 +3,7 @@
 ## Graduação Tecnológica Análise e Desenvolvimento de Sistemas - Online
 
 <p>
-    PDFs das materias estudadas durante o curso!
+    PDFs das materias estudadas durante a Graduação!
 </p>
 
 <hr>
