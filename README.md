@@ -26,6 +26,7 @@
             <img width="50px" style="padding: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" />
           <img width="50px" style="padding: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" />   
 </div>
+<hr/>
 <p>
     Início Julho de 2024 até dezembro de 2026.
 </p>
