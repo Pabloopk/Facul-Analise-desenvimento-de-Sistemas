@@ -26,10 +26,12 @@ mysqli_close($conn);
 
 
 
-A linguagem PHP também possui uma série de métodos e funções, habilitados através da extensão pgsql, para conexão com o PostgreSQL.
+A linguagem PHP também possui uma série de métodos e funções, habilitados
+ através da extensão pgsql, para conexão com o PostgreSQL.
 
 
-A exemplo do que fizemos com o MySQL, vejamos um código que utiliza funções PHP para conectar com o PostgreSQL e realizar uma instrução SQL de consulta de dados.
+A exemplo do que fizemos com o MySQL, vejamos um código que utiliza funções
+ PHP para conectar com o PostgreSQL e realizar uma instrução SQL de consulta de dados.
 
 
     <?php
@@ -87,23 +89,37 @@ sendo utilizados. A seguir, esses recursos serão revistos:
 
 Constantes
 
-As constantes são identificadores ou nomes que contêm um valor único e imutável, ao contrário das variáveis que, conforme o nome indica, possuem valor variável ao longo de um programa.
+As constantes são identificadores ou nomes que contêm um valor único e imutável, ao 
+contrário das variáveis que, conforme o nome indica, possuem valor variável ao longo 
+de um programa.
  
 
-No exemplo, foram declaradas constantes para armazenarem as credenciais de acesso ao SGBD. A sintaxe de utilização de constantes é composta pela palavra reservada DEFINE, seguida de parênteses, onde são incluídos o nome da constante e o seu valor.
+No exemplo, foram declaradas constantes para armazenarem as credenciais de acesso ao SGBD. 
+A sintaxe de utilização de constantes é composta pela palavra reservada DEFINE, seguida de
+ parênteses, onde são incluídos o nome da constante e o seu valor.
 
 
 Variáveis
 
-As variáveis são objetos, ou espaços reservados na memória do computador, destinados a armazenarem e a exibirem os dados utilizados, e alterados, durante a execução de um programa.
+As variáveis são objetos, ou espaços reservados na memória do computador, destinados a
+ armazenarem e a exibirem os dados utilizados, e alterados, durante a execução de um
+  programa.
  
 
-Em PHP, as variáveis são representadas por um $ seguido pelo seu nome, que é case-sensitive, ou seja, uma letra maiúscula é diferente de uma letra minúscula ($var é diferente de $Var). Em relação à declaração e atribuição de valores, ambos os processos podem ocorrer ao mesmo tempo. Veja no último exemplo que a variável $stringConn foi declarada (inserida pela primeira vez no código) ao mesmo tempo que recebeu um valor (processo de atribuição). Por último, as variáveis em PHP não possuem tipo. Logo, não é necessário indicar o tipo de dado a ser armazenado por uma variável.
+Em PHP, as variáveis são representadas por um $ seguido pelo seu nome, que é
+ case-sensitive, ou seja, uma letra maiúscula é diferente de uma letra minúscula
+  ($var é diferente de $Var). Em relação à declaração e atribuição de valores,
+   ambos os processos podem ocorrer ao mesmo tempo. Veja no último exemplo que 
+   a variável $stringConn foi declarada (inserida pela primeira vez no código) 
+   ao mesmo tempo que recebeu um valor (processo de atribuição). Por último, as
+    variáveis em PHP não possuem tipo. Logo, não é necessário indicar o tipo de
+     dado a ser armazenado por uma variável.
 
 
 Estruturas de decisão e repetição
 
-Nos exemplos, foi vista a estrutura de repetição while. Além dela, há outras estruturas de repetição disponíveis em PHP: do-while, for e foreach.
+Nos exemplos, foi vista a estrutura de repetição while. Além dela, há outras
+ estruturas de repetição disponíveis em PHP: do-while, for e foreach.
  
 
 A respeito das estruturas de decisão, estão disponíveis em PHP: if, else, elseif e switch.
@@ -119,11 +135,22 @@ variáveis são compostas pelo par índice/valor. A variável $row, nos exemplos
 
 Funções
 
-As funções são pedaços de código que podem ser chamados a partir de qualquer parte do programa e que executam tarefas específicas. Além das funções definidas pelo usuário, em PHP estão disponíveis inúmeras funções nativas. Em nossos exemplos, temos as funções define e echo, além das relacionadas à conexão e ao manuseio de dados, como mysql_connect ou pg_connect, mysql_query ou pg_query, entre outras.
+As funções são pedaços de código que podem ser chamados a partir de qualquer parte do 
+programa e que executam tarefas específicas. Além das funções definidas pelo usuário, 
+em PHP estão disponíveis inúmeras funções nativas. Em nossos exemplos, temos as funções 
+define e echo, além das relacionadas à conexão e ao manuseio de dados, como mysql_connect
+ ou pg_connect, mysql_query ou pg_query, entre outras.
 
 
 Extensões, bibliotecas e classes
 
-As extensões, bibliotecas e classes são um importante recurso presente na maioria das linguagens de programação. Através delas, é possível estender as funções básicas de uma linguagem, adicionando novos recursos para a execução de determinadas tarefas.
+As extensões, bibliotecas e classes são um importante recurso presente na maioria das
+ linguagens de programação. Através delas, é possível estender as funções básicas de 
+ uma linguagem, adicionando novos recursos para a execução de determinadas tarefas.
 
-Em relação à definição, em PHP, temos as extensões, que são arquivos binários (no S.O. Windows, as .dll, em S.O.s unix-like, os .so) que contêm bibliotecas. Já as bibliotecas são um conjunto de funções e/ou classes. As classes, então, dentro do paradigma de orientação a objetos, são um conjunto de códigos compostos por atributos e métodos. São exemplos de extensões os drivers para os SGBDs MySQL e PostgreSQL, que, quando habilitados, permitem a sua utilização com o PHP.
+Em relação à definição, em PHP, temos as extensões, que são arquivos binários (no S.O.
+ Windows, as .dll, em S.O.s unix-like, os .so) que contêm bibliotecas. Já as bibliotecas 
+ são um conjunto de funções e/ou classes. As classes, então, dentro do paradigma 
+ de orientação a objetos, são um conjunto de códigos compostos por atributos e métodos.
+  São exemplos de extensões os drivers para os SGBDs MySQL e PostgreSQL, que, quando habilitados,
+   permitem a sua utilização com o PHP.
