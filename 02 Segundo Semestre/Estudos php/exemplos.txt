@@ -154,3 +154,20 @@ Em relação à definição, em PHP, temos as extensões, que são arquivos bin�
  de orientação a objetos, são um conjunto de códigos compostos por atributos e métodos.
   São exemplos de extensões os drivers para os SGBDs MySQL e PostgreSQL, que, quando habilitados,
    permitem a sua utilização com o PHP.
+
+
+
+   De fato, pode-se estabelecer a conexão com banco de dados PostgreSQL a partir da instanciação de objeto de PDO, 
+   passando os parâmetros
+ de acesso ao banco, como localização, porta, nome do banco, além de login e senha de acesso. Porém, a linha
+  de código apresentada possui um erro relacionado à falta do prefixo do driver de banco de dados "pgsql:" no 
+  início da string do construtor PDO. Sem esse prefixo, a aplicação não saberá que está tentando se conectar a 
+  um banco de dados PostgreSQL, resultando em uma falha de conexão. Para corrigir o erro, deve-se incluir "pgsql:" 
+  no início da string do parâmetro do construtor. A linha corrigida ficaria da seguinte forma:
+ 
+
+$dsn = new PDO("pgsql:host=". HOST . ";port=".PORT.";dbname=" . DBNAME .";user=" . USER . ";password=" . PASSWORD);
+ 
+
+Após corrigida, a linha de código criará uma conexão com o banco de dados PostgreSQL utilizando os parâmetros 
+ornecidos na instanciação do objeto PDO, permitindo que a aplicação PHP se conecte com o banco de dados.
