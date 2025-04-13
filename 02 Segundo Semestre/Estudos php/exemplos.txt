@@ -171,3 +171,5 @@ $dsn = new PDO("pgsql:host=". HOST . ";port=".PORT.";dbname=" . DBNAME .";user="
 
 Após corrigida, a linha de código criará uma conexão com o banco de dados PostgreSQL utilizando os parâmetros 
 ornecidos na instanciação do objeto PDO, permitindo que a aplicação PHP se conecte com o banco de dados.
+
+Estudos de integração
