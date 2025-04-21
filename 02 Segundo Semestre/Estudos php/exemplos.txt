@@ -173,3 +173,6 @@ Após corrigida, a linha de código criará uma conexão com o banco de dados Po
 ornecidos na instanciação do objeto PDO, permitindo que a aplicação PHP se conecte com o banco de dados.
 
 Estudos de integração
+
+
+OBS: Estudar para as provas
