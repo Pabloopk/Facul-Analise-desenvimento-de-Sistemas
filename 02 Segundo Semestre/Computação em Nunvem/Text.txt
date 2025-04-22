@@ -10,3 +10,13 @@ Com o autoatendimento sob demanda, a empresa cliente pode provisionar o hardware
 selecionar um sistema operacional a ser instalado nos equipamentos, além de outros 
 sistemas, implantando tudo até mesmo com um único recurso humano atuando solitariamente, 
 em questão de minutos e sem a interação física do humano com o provedor do serviço.
+
+
+Broad network access
+
+
+Traduzindo, "amplo acesso à rede". A consideração aqui está calcada na disponibilidade de 
+acesso à rede suficiente para atender a milhões de usuários finais, clientes do negócio da
+ empresa, independentemente de suas plataformas de acesso (celulares, tablets, laptops ou 
+ estações de trabalho). 
+Estamos falando de acesso à rede nos moldes dos grandes provedores de serviços de internet (ISP).
