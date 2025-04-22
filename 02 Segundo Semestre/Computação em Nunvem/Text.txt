@@ -31,4 +31,10 @@ de armazenamento, em vez de ter um único servidor executando 10% de seus
 recursos na maior parte do tempo e podendo estourar 100% de sua capacidade
  em momentos específicos de pico.
 
- 
+ Rapid elasticity
+
+
+Traduzindo, "elasticidade rápida". Confere capacidade ao sistema de aumentar
+ e diminuir a quantidade de recursos de computação, desde um único servidor 
+ para milhares de servidores, eventualmente, e depois retornar para o uso de um 
+ único servidor, tudo de acordo com suas necessidades do negócio.
