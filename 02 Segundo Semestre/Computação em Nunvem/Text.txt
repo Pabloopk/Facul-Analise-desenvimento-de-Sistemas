@@ -38,3 +38,13 @@ Traduzindo, "elasticidade rápida". Confere capacidade ao sistema de aumentar
  e diminuir a quantidade de recursos de computação, desde um único servidor 
  para milhares de servidores, eventualmente, e depois retornar para o uso de um 
  único servidor, tudo de acordo com suas necessidades do negócio.
+
+
+
+ Measured service
+
+
+Traduzindo, "serviço medido". Baseia-se na possibilidade de a empresa 
+pagar apenas pelos recursos consumidos, gerando um relatório de cobrança
+ que mostre quais recursos foram utilizados e quanto deve ser pago por 
+ cada um desses recursos.
