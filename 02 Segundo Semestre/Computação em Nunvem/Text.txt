@@ -1,3 +1,12 @@
 Fundamentos e conceitos da computação em nunvem.
 
-    - Iniciamos com uma 
+
+    On-demand self-service
+
+Traduzindo, autoatendimento sob demanda. É uma alternativa moderna para o modelo 
+original de se colocar um negócio no ar a partir da compra de computadores, espera 
+pela logística de entrega e implantação dos softwares necessários ao negócio em si. 
+Com o autoatendimento sob demanda, a empresa cliente pode provisionar o hardware e 
+selecionar um sistema operacional a ser instalado nos equipamentos, além de outros 
+sistemas, implantando tudo até mesmo com um único recurso humano atuando solitariamente, 
+em questão de minutos e sem a interação física do humano com o provedor do serviço.
