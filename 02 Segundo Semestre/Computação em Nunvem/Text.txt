@@ -12,7 +12,7 @@ sistemas, implantando tudo até mesmo com um único recurso humano atuando solit
 em questão de minutos e sem a interação física do humano com o provedor do serviço.
 
 
-Broad network access
+    Broad network access
 
 
 Traduzindo, "amplo acesso à rede". A consideração aqui está calcada na disponibilidade de 
@@ -20,3 +20,15 @@ acesso à rede suficiente para atender a milhões de usuários finais, clientes 
  empresa, independentemente de suas plataformas de acesso (celulares, tablets, laptops ou 
  estações de trabalho). 
 Estamos falando de acesso à rede nos moldes dos grandes provedores de serviços de internet (ISP).
+
+
+    Resource pooling
+
+Algo como um conjunto de recursos diversos relacionados à computação.
+
+Isto é, de forma a maximizar a utilização de CPU, memória e capacidade 
+de armazenamento, em vez de ter um único servidor executando 10% de seus 
+recursos na maior parte do tempo e podendo estourar 100% de sua capacidade
+ em momentos específicos de pico.
+
+ 
