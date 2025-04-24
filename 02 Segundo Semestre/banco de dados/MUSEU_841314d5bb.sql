@@ -47,7 +47,7 @@ SALARIO NUMERIC(7,2),
 CPF CHAR(11) PRIMARY KEY);
 
 insert into TURNOS(CODTURNO, NOMETURNO)
-values ('M', 'MANH�');
+values ('M', 'MANH�');
 insert into TURNOS(CODTURNO, NOMETURNO)
 values ('T', 'TARDE');
 insert into TURNOS(CODTURNO, NOMETURNO)
@@ -134,7 +134,7 @@ values (104, 3, 600, 'BRONZE');
 insert into ESCULTURAS (CODIGO, ALTURA, PESO, MATERIAL)
 values (108, 2, 120, 'FERRO');
 insert into ESCULTURAS (CODIGO, ALTURA, PESO, MATERIAL)
-values (111, 1.00,300.00,'A�O');
+values (111, 1.00,300.00,'A�O');
 insert into ESCULTURAS (CODIGO, ALTURA, PESO, MATERIAL)
 values (115,2.00,500.00,'PEDRA');
 insert into ESCULTURAS (CODIGO, ALTURA, PESO, MATERIAL)
@@ -143,15 +143,15 @@ values (112,2.00,150.00,'MARMORE');
 
 
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
-values ('41034567799', 'SEG5', 1000, 'T', 'SEGURAN�A');
+values ('41034567799', 'SEG5', 1000, 'T', 'SEGURAN�A');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
-values ('38942178472', 'SEG1', 1000, 'M', 'SEGURAN�A');
+values ('38942178472', 'SEG1', 1000, 'M', 'SEGURAN�A');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
-values ('78905416276', 'SEG2', 2000, 'M', 'SEGURAN�A');
+values ('78905416276', 'SEG2', 2000, 'M', 'SEGURAN�A');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
-values ('66655544477', 'SEG3', 1000, 'T', 'SEGURAN�A');
+values ('66655544477', 'SEG3', 1000, 'T', 'SEGURAN�A');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
-values ('66789403264', 'SEG4', 2000, 'T', 'SEGURAN�A');
+values ('66789403264', 'SEG4', 2000, 'T', 'SEGURAN�A');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
 values ('34567809238', 'FAX1', 1000, 'M', 'FAXINEIRO');
 insert into FUNCIONARIOS (CPF, NOME, SALARIO, TURNO, FUNCAO)
@@ -230,3 +230,34 @@ ALTER TABLE ALOCACOES ADD FOREIGN KEY(NUMERO) REFERENCES SALOES (NUMERO);
 ALTER TABLE ALOCACOES ADD FOREIGN KEY(CPF) REFERENCES FUNCIONARIOS (CPF);
 ALTER TABLE FUNCIONARIOS ADD FOREIGN KEY(TURNO) REFERENCES TURNOS(CODTURNO);
 
+
+
+Listar o conteÃºdo da tabela de autores
+SELECT * FROM AUTORES
+
+Listar o nome e nacionalidade de todos os autores
+SELECT NOME, NACIONALIDADE  FROM AUTORES
+
+Listar CPF, nome, salÃ¡rio e salÃ¡rio anual dos funcionÃ¡rios
+SELECT CPF, NOME, SALARIO, SALARIO * 40/3 FROM FUNCIONARIOS
+
+Listar o nome do autor concatenado com a sua nacionalidade
+SELECT NOME || ' ' || NACIONALIDADE FROM AUTORES
+
+Listar o nome do autor concatenado com a sua nacionalidade com o alias de coluna nome e nacionalidade
+SELECT NOME || ' ' || NACIONALIDADE AS"NOME E NACIONALIDADE" FROM AUTORES
+
+Listar a Ã¡rea mÃ©dia com o alias Ã¡rea mÃ©dia, e nÃºmero de salÃµes com o alias 'Total de salÃµes'
+SELECT AVG(AREA) AS "ÃREA MÃ‰DIA", COUNT(*) "TOTAL SALÃ•ES" FROM SALOES
+
+Listar o total de pinturas com o alias 'Quantidade de pinturas'
+SELECT COUNT(*) AS "Quantidade de Pinturas" 
+FROM PINTURAS
+
+Listar o maior peso de uma escultura
+SELECT MAX(PESO) AS "MAIOR PESO" 
+FROM ESCULTURAS
+
+Listar o tÃ­tulo de uma obra que aparece primeiro na ordem alfabÃ©tica crescente
+SELECT MIN(TITULO)  
+FROM OBRAS
