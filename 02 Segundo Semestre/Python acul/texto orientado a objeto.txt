@@ -1,0 +1,16 @@
+Em Python, os conceitos de agregação e composição são fundamentais
+ para a modelagem de relacionamentos entre objetos, sendo crucial
+ entender suas diferenças para o desenvolvimento de sistemas 
+robustos e flexíveis. Na composição, um objeto é parte integrante 
+de outro objeto, estabelecendo uma relação forte onde o ciclo
+de vida do objeto componente depende do objeto composto. Se o
+objeto composto for destruído, os objetos componentes também 
+serão destruídos, como no caso de um carro e seu motor, onde 
+o motor não existe sem o carro. Em contraste, a agregação estabelece
+uma relação mais fraca, onde um objeto contém outros objetos que podem existir 
+independentemente do objeto agregador. Se o objeto agregador for 
+destruído, os objetos agregados continuam a existir, exemplificado 
+por uma sala de aula e seus alunos, que podem existir 
+fora da sala e serem associados a diferentes salas. Assim, 
+na agregação, os objetos são independentes entre si, enquanto 
+na composição, os objetos têm uma relação de dependência.
