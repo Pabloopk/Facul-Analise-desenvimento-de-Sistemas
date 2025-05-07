@@ -15,7 +15,6 @@ em questão de minutos e sem a interação física do humano com o provedor do s
 
     Broad network access
 
-
 Traduzindo, "amplo acesso à rede". A consideração aqui está calcada na disponibilidade de 
 acesso à rede suficiente para atender a milhões de usuários finais, clientes do negócio da
  empresa, independentemente de suas plataformas de acesso (celulares, tablets, laptops ou 
