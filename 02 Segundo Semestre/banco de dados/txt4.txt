@@ -30,3 +30,9 @@ Repetir o comando anterior ordenando pela posiÃ§Ã£o da coluna
 SELECT *
 FROM AUTORES
 ORDER BY 3 , 1 DESC
+
+
+
+
+int dinheiro
+string cpf
