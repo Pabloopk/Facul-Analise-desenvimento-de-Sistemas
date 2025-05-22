@@ -38,3 +38,25 @@ SELECT MAX(SALARIO), MIN(SALARIO),
        MAX(ULT_NOME), MIN(ULT_NOME),
 	 MAX(DT_ADMISSAO), MIN(DT_ADMISSAO)
 FROM EMPREGADO
+
+
+
+Organizar bem o código é essencial para criar aplicações escaláveis com Node.js e Express. Por isso, gosto de seguir a arquitetura MVC – uma forma clara de separar responsabilidades e manter tudo limpo e compreensível.
+
+🔧 MVC = Model - View - Controller
+
+Aqui está uma estrutura de pastas que costumo usar em projetos Express.js:
+
+/project-root
+│
+├── /controllers → Lógica de negócio
+├── /models → Schemas e operações com o banco de dados
+├── /routes → Definição das rotas
+├── /middlewares → Funções de middleware personalizadas
+├── /config → Configurações do app ou do banco
+├── /public → Arquivos estáticos (CSS, JS, imagens)
+├── .env → Variáveis de ambiente
+├── .gitignore → Exclusões do Git (como node_modules, .env)
+├── node_modules/ → Pacotes instalados
+├── package.json → Metadados e scripts do app
+├── app.js → Ponto de entrada da aplicação
