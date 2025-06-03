@@ -1,5 +1,5 @@
 
-# 🐍 Estudo de Python Intermediário para quem já sabe PHP/JavaScript
+# 🐍 Estudo de Python Intermediário
 
 Este repositório tem como objetivo oferecer uma introdução **intermediária** à linguagem Python para pessoas que já possuem conhecimentos prévios em **PHP** ou **JavaScript**. A abordagem foca em comparações diretas entre as linguagens e práticas comuns.
 
